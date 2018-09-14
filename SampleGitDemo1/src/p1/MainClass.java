@@ -8,11 +8,13 @@ public class MainClass {
 		
 		System.out.println("This is new updates for case 123");
 		
-		String names[] = {"ramesh","rahul"};
+		// ---------------------------
 		
-		for(int i = 0;i<names.length;i++)
-		{
-			System.out.println(names[i]);
+		
+		String names[] = {"ramesh","rahul","mike","jenny"};
+		
+		for (String name : names) {
+			System.out.println(name);
 		}
 
 	}
